@@ -1,0 +1,9 @@
+<button id="btn" onclick="change()">on  click</button>
+
+
+<script>
+    var button=document.getElementById("btn")
+      function change(){
+       button.style.backgroundColor="red"
+    }
+</script>
