@@ -1,0 +1,14 @@
+<h1  onclick="deleteit(event)">one</h1>
+<h1 onclick="deleteit(event)">two</h1>
+<h1 onclick="deleteit(event)">three</h1>
+<h1 onclick="deleteit(event)">four</h1>
+<h1 onclick="deleteit(event)">five</h1>
+<h1 onclick="deleteit(event)">six</h1>
+
+<script>
+   
+
+    function deleteit(event){
+        event.target.remove()
+    }
+</script>
